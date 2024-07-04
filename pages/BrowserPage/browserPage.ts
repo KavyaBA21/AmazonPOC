@@ -10,6 +10,8 @@ export class BrowserPage{
         const context = await browser.newContext();
         const pages = await context.pages();
         await pages[1].bringToFront();
+        await pages[1].bringToFront();
+        await pages[1].bringToFront();
     }
 
     
